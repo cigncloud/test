@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "tfer--cign-home" {
     type        = "CanonicalUser"
   }
 
-  object_lock_enabled = "false"
+  object_lock_enabled = "true"
 
   policy = <<POLICY
 {
