@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "tfer--cign-home" {
   bucket        = "cign-home"
-  force_destroy = "false"
+  force_destroy = "true"
 
   grant {
     id          = "c170d084459e17053bb69cfe8ccecc5d58f464bdf98f58d6340f5b18b3226e59"
